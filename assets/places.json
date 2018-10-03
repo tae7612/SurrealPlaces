@@ -1,0 +1,143 @@
+
+   [
+{
+      "id":          0,
+
+      "name":        "Swing at the end of the World",
+
+      "Location":    "Banos, Ecquador",
+
+      "description": "Deep in the Ecuadorian wilderness is a seismic monitoring station in a tree known as Casa del Arbol. Its purpose is observe Mt. Tungurahua, the nearby active volcano, from its precarious perch. While the treehouse itself is a sight to behold the real attraction is the swing hanging from one of the tree’s skinny branches.",
+
+      "pic":      	"swingAtEnd.png"
+
+   },
+
+   {
+
+      "id":          1,
+
+      "name":        "Mt. Huashan, The World's most Dangerous Hiking Trail",
+
+      "Location":      "Xi’an, China",
+
+      "description": "The 2154m tall Mount Huashan is considered to be one of 5 sacred mountains in China, and locals know it as the 'most precipitous mountain under heaven'. For centuries, the mountain has been a point of pilgrimage for pious monks and devout Taoists. There are five peaks, each with its own attractive details: East Peak is best for the sunrise, the South for the highest altitude, North for its terrace, West for its elegance, and Middle Peak, also known as Jade Lady Peak.From the North Peak, a series of paths rise up more than 984 ft. on the side of the mountain. This was the only trail to go to the four other peaks—Plankwalk in the Sky— and is deemed one of the world’s deadliest hikes. ",
+
+      "pic":         "deadlyWalk.png"
+
+   },
+
+    {
+
+      "id":          2,
+
+      "name":        "Sagano Bamboo Forest",
+
+      "Location":      "Kyoto, Japan",
+
+      "description": "Sagano Bamboo Forest is located in Arashiyama, a district on the west outskirts of Kyoto,  Japan. It’s one of the most amazing natural sites in Japan. The sound which the wind makes while it blows amongst the bamboo has been voted on as one of the 'one hundred must-be-preserved sounds of Japan' by the Japanese government.",
+
+      "pic":         "bamboo.png"
+
+   },
+
+   {
+
+      "id":          3,
+
+      "name":        "Glowworm Caves",
+
+      "Location":      "Waitomo, New Zealand",
+
+      "description": "This specific spot in the Waitomo Caves is known as the Glowworm Grotto, a place where glowworms create a starry effect on the ceilings. This species is exclusively found in New Zealand and is around the size of a mosquito.",
+
+      "pic":         "glowwormCave.png"
+
+   },
+
+    {
+
+      "id":          4,
+
+      "name":        "Salar De Uyuni",
+
+      "Location":      "Oruno, Bolivia",
+
+      "description": "This is the world's largest salt flat. It also becomes a giant mirror of the sky during the rainy season.",
+
+      "pic":         "saltMarsh.png"
+
+   },
+
+   {
+
+      "id":          5,
+
+      "name":        "Playa Del Amor - The Hidden Beach",
+
+      "Location":      "Marieta Islands, Mexico.",
+
+      "description": "A gaping hole in the surface of this lush green Mexican island exposes a secret beach, with ample shade, sun, and crystal-clear water. Playa Del Amor, more commonly known as the Hidden Beach, is a structure of one of the Marieta Islands, located west of Puerto Vallarta, Mexico, at the mouth of Banderas Bay.",
+
+      "pic":         "hidden.png"
+
+   },
+
+    {
+
+      "id":          6,
+
+      "name":        "Sea of Stars ",
+
+      "Location":      "Vaadhoo Island in the Maldives ",
+
+      "description": "If you thought the ocean could not possibly get any more beautiful, come in the right season and wait until night fall as the water comes to life and sparkles; showcasing one of the rarest natural spectacles on the planet. The spotting of the sea of stars is dependent on climate and the plankton growth throughout the year. ",
+
+      "pic":         "C933Jq4XUAA2jrI.png"
+
+   },
+
+   {
+
+      "id":          7,
+
+      "name":        "Antelope Canyon ",
+
+      "Location":      "Arizona, United States",
+
+      "description": "Located near Page, Ariz., this brilliant slot canyon is split into two different sections, commonly referred to as The Crack and The Corkscrew.",
+
+      "pic":         "canyon.png"
+
+   },
+
+    {
+
+      "id":          8,
+
+      "name":        "Marble Caves at General Carrera Lake",
+
+      "Location":      "Patagonia, Argentina and Chile",
+
+      "description": "The Marble Caves, known as Marble Chapel and Marble Cathedral, are located at the center of the lake and were formed by waves over the past 6,000 years.",
+
+      "pic":         "Marble.png"
+
+   },
+
+   {
+
+      "id":          9,
+
+      "name":        "Tianmen Mountain — Climb the Stairway to Heaven's Door",
+
+      "Location":      "Zhangjiajie, China.",
+
+      "description": "Tianmen Mountain, by Zhangjiajie city, in central China’s Hunan Province, has been called one of the most beautiful mountains in the world by many travelers who have been there. The stunning views including 'Heaven's Door' and the 99 Bends, vertical cliffs, the thrilling cliff-hanging walkway and glass skywalk, and the world's longest cable car ride, make it unquestionably one of the best mountains to visit in China. Come, climb the 'Stairway to Heaven'!",
+
+      "pic":         "glassWalk.png"
+
+   }
+
+]
+
