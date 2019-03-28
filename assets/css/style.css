@@ -1,10 +1,12 @@
 body
 {
-  font-size: 65%;
-  padding:0;
-  margin: 0;
-  color: #032B2F;
-  background-color: #E7E9E2;
+	font-size: 65%;
+  	padding:0;
+  	margin: 0;
+  	color: black;
+  	background-color: white;
+	font-family: 'Nunito Sans';
+
 }
 
 /* Landing Page */
@@ -14,9 +16,8 @@ body
 	width: 100%;
 	height: auto;
 	margin: 0;
-	padding:0;	
-	font-family: Papyrus, fantasy;
-	font-style: normal;
+	padding:0;
+	fonr-weight: lighter;
 	font-variant: normal;
 	text-align: center;
 	
@@ -24,9 +25,6 @@ body
 
 #webTitle
 {
-	
-	
-	font-weight: 700;
 	font-size: 4rem;
 
 }
@@ -75,18 +73,32 @@ details
 	display: none;
 }
 
+button#back{
+	display: flex;
+	justify-content: center;
+}
+
 #back
 {
-
-	margin: 1em auto 0;
-	font-size: 2em;
-	width: 6%;
-	padding: 10px;
+	transition: .5s ease-in-out;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 8px 50px 8px 50px;
 	border-style: solid;
-	border-radius: 10px;
-	color: #D73A31;
-	border-color: #D73A31;
-	
+	color: #e6005c;
+	border-color: #e6005c;
+	border-width: 2px;
+
+	font-weight: bold;
+
+
+}
+
+#back:hover{
+	background-color: #e6005c;
+	color: white;
 }
 
 /* Menu Listing */
@@ -98,25 +110,45 @@ ul
 
 li.item
 {
+	transition: all .5s;
 	list-style-type: none;
 	width: 90%;
 	margin: 1em auto 0;
 	text-align: center;
 	padding-bottom: 1.5em;
-	
-	
-	
+
+
+
+}
+
+li.item :hover{
+	transform: scale(1.05);
+	filter: brightness(0.50);
 }
 
 li.item img
 {
+	transition: all .5s;
 	max-width: 90%;
 	max-height: 325px;
-	border-style: ridge;
 	box-shadow: 2px 4px 7px grey;
-	border-color: #56B1BF;
-	border-bottom-width: medium;
+	position: relative;
+
 	
+}
+
+li.item img :hover{
+	transform: scale(1.05);
+}
+
+
+.hiddenItemTitle{
+	position: absolute;
+	display: block;
+}
+
+li.item :hover .hiddenItemTitle{
+	display: block;
 }
 
 /*Details Listing */
@@ -134,16 +166,14 @@ li.desc
 	max-width: 90%;
 	max-height: 325px;
 	box-shadow: 2px 4px 4px grey;
-	border-style: ridge;
 	box-shadow: 2px 4px 4px grey;
-	border-color: #56B1BF;
-	border-bottom-width: medium;
+
 }
 
 .title
 {
 	font-size: .9rem;
-	color: #D73A31;
+	color: #e6005c;
 }
 
 .info
@@ -158,6 +188,11 @@ li.desc
 	font-size: .75rem;
 	font-weight: bold;
 	
+}
+
+.loc{
+	font-weight: bold;
+	font-style: italic;
 }
 
 .data
@@ -184,10 +219,7 @@ li.desc
 	}
 	#back
 	{
-		font-size: 1em;
-		width: 6%;
-		padding: 7px;
-		border-width: medium;
+
 	
 	}
 }
