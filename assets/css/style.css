@@ -25,19 +25,21 @@ body
 
 #webTitle
 {
-	font-size: 4rem;
+	font-size: 3rem;
+	font-family: 'Sofia';
 
 }
 
 #landing img
 {
-	width: 100%;
+	width: 90%;
 	max-height: 500px;
 }
 
 #catch
 {
-	font-size: 2rem;
+	font-size: 1.4rem;
+	font-family: 'Sofia';
 }
 
 /* Nav */
@@ -52,7 +54,7 @@ nav p
 {
 	text-align: center;
 	font-size: 2.4rem;
-	font-family: Papyrus, fantasy;
+	font-family: 'Sofia';
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
@@ -108,6 +110,11 @@ ul
 	padding: 0;
 }
 
+.container{
+	display: inline-block;
+	position: relative;
+}
+
 li.item
 {
 	transition: all .5s;
@@ -118,12 +125,11 @@ li.item
 	padding-bottom: 1.5em;
 
 
-
 }
 
 li.item :hover{
 	transform: scale(1.05);
-	filter: brightness(0.50);
+	filter: brightness(.7);
 }
 
 li.item img
@@ -132,7 +138,6 @@ li.item img
 	max-width: 90%;
 	max-height: 325px;
 	box-shadow: 2px 4px 7px grey;
-	position: relative;
 
 	
 }
@@ -144,10 +149,19 @@ li.item img :hover{
 
 .hiddenItemTitle{
 	position: absolute;
-	display: block;
+	color: white;
+	font-weight: bolder;
+	display: none;
+	font-size: 24px;
+	top: 50%;
+	left: 50%;
+
 }
 
 li.item :hover .hiddenItemTitle{
+	transform: scale(1.05);
+	transform: translate(-50%, -50%);
+	filter: brightness(1);
 	display: block;
 }
 

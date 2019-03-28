@@ -66,9 +66,9 @@ function buildMenu(items){
  		var sel = 'details';
  		var curr = 'main';
 		output += "<li class= 'item'" + 
-			"onclick ='changeScreen("+ item.id +","+sel+","+curr+");'>"+
- 			"<img src='assets/img/" + item.pic + "'/>"  +
- 			"</li>";
+			"onclick ='changeScreen("+ item.id +","+sel+","+curr+");'><div class='container'>"+
+			"<img src='assets/img/" + item.pic + "'/>"  + "<div class='hiddenItemTitle'>"+item.name+"</div>"+
+			"</div></li>";
  					
  	});
  	// Outputs the data to the main section
@@ -87,10 +87,10 @@ function buildDesc(items){
  	if(selectedId == item.id){
  		
 		output += "<li class= 'desc'" +
- 			"<p ><strong class ='title'>" + item.name + "</strong>, <i class = 'loc'>"+ item.Location+ "</i></p>" +
+ 			"<p ><strong class ='title'>" + item.name + "</strong>, <span class = 'loc'>"+ item.Location+ "</span></p>" +
  			"<img src='assets/img/" + item.pic + "'/>"  +
  			"<div class = 'info'><p class = 'head'>Description: </p><p class ='data'>"+item.description+"</p></div>"+
- 			"</li>"+"<p id = 'back'"+"onclick = 'backMenu();' >Back</p>";
+ 			"</li>"+"<button id = 'back'"+"onclick = 'backMenu();' >Back</button><br><br><br>";
  		}			
  	});
  	// Outputs data to details section
